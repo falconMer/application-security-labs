@@ -6,7 +6,7 @@ Secure coding and web-application security labs covering authentication, authori
 
 ## What this repository demonstrates
 
-- Implemented and reviewed token-based authentication, HttpOnly cookies, role-based access, and user/task ownership controls.
+- Implemented token-based authentication with HttpOnly cookies, role-based access, and server-side task ownership assignment; the supplied report's task-listing ownership claim is explicitly reviewed and qualified in the write-up where the shown SQL does not prove per-user isolation.
 - Demonstrated session fixation in an intentionally insecure Node.js application and verified session regeneration as the defense.
 - Investigated buffer overflow, SQL injection, unsafe memory use, XSS, and CSRF, with secure coding mitigations.
 
@@ -38,7 +38,7 @@ The Markdown write-ups and supplied PDF reports form the complete available port
 
 Privacy note: cookie and token values in the page 5 DevTools screenshot have been redacted. Cookie names, flags, and the authentication explanation are preserved.
 
-This repository uses only the academic reports and evidence that were actually supplied for the portfolio. Some original reports contained terminal/browser screenshots and figures; no additional screenshots, source files, packet captures, or results have been fabricated or claimed. Where a report recorded an incomplete or unsuccessful step, the write-up preserves that limitation.
+This repository uses only the academic reports and evidence that were actually supplied for the portfolio. Some original reports contained terminal/browser screenshots and figures; no additional screenshots, source files, packet captures, or results have been fabricated or claimed. Where a report recorded an incomplete result or where a written security conclusion is not fully supported by the code snippet shown in the report, the GitHub write-up calls that out explicitly rather than overstating the evidence.
 
 ## Responsible use
 
