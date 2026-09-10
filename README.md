@@ -16,21 +16,27 @@ Secure coding and web-application security labs covering authentication, authori
 
 ## Included academic work
 
-| # | Lab | Portfolio write-up |
-|---:|---|---|
-| 1 | Authentication and Task Management | [`docs/01-authentication-and-task-management.md`](docs/01-authentication-and-task-management.md) |
-| 2 | Session Fixation and Regeneration | [`docs/02-session-fixation-and-regeneration.md`](docs/02-session-fixation-and-regeneration.md) |
-| 3 | Program Security Vulnerabilities | [`docs/03-program-security-vulnerabilities.md`](docs/03-program-security-vulnerabilities.md) |
+| # | Lab | Portfolio write-up | Original PDF |
+|---:|---|---|---|
+| 1 | Authentication and Task Management | [`docs/01-authentication-and-task-management.md`](docs/01-authentication-and-task-management.md) | [PDF report](docs/01-authentication-and-task-management.pdf) |
+| 2 | Session Fixation and Regeneration | [`docs/02-session-fixation-and-regeneration.md`](docs/02-session-fixation-and-regeneration.md) | [PDF report](docs/02-session-fixation-and-regeneration.pdf) |
+| 3 | Program Security Vulnerabilities | [`docs/03-program-security-vulnerabilities.md`](docs/03-program-security-vulnerabilities.md) | [PDF report](docs/03-program-security-vulnerabilities.pdf) |
 
 ## Repository structure
 
 ```text
 .
 ├── README.md
-└── docs/        # Portfolio write-ups derived from the supplied university reports
+└── docs/
+    ├── *.md   # GitHub-friendly lab write-ups
+    └── *.pdf  # Original lab reports (privacy-redacted where noted)
 ```
 
+The Markdown write-ups and supplied PDF reports form the complete available portfolio evidence. Screenshots, diagrams, and tool output are preserved inside the reports; standalone source code, captures, notebooks, and other artifacts are included only if supplied.
+
 ## Evidence policy
+
+Privacy note: cookie and token values in the page 5 DevTools screenshot have been redacted. Cookie names, flags, and the authentication explanation are preserved.
 
 This repository uses only the academic reports and evidence that were actually supplied for the portfolio. Some original reports contained terminal/browser screenshots and figures; no additional screenshots, source files, packet captures, or results have been fabricated or claimed. Where a report recorded an incomplete or unsuccessful step, the write-up preserves that limitation.
 

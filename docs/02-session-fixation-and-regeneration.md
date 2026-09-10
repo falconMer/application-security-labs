@@ -1,5 +1,7 @@
 # 02 Session Fixation And Regeneration
 
+[← Repository overview](../README.md) · [Original PDF report](02-session-fixation-and-regeneration.pdf)
+
 > Portfolio text edition derived from the original university lab report provided by Smail Mersad. The original report contains screenshots/figures; this Markdown edition preserves the written technical record without inventing additional evidence or assets.
 
 **Academic context:** Amar Telidji University, Computer Science / Cybersecurity Engineering, 2025-2026.

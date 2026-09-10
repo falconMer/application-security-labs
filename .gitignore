@@ -1,0 +1,21 @@
+# OS / editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Node.js
+node_modules/
+npm-debug.log*
+
+# Build / temporary files
+build/
+dist/
+*.tmp
+*.log

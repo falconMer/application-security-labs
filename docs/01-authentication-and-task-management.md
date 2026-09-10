@@ -1,5 +1,9 @@
 # 01 Authentication And Task Management
 
+[← Repository overview](../README.md) · [Original PDF report](01-authentication-and-task-management.pdf)
+
+> Privacy note: cookie and token values in the page 5 DevTools screenshot have been redacted. Cookie names, flags, and the authentication explanation are preserved.
+
 > Portfolio text edition derived from the original university lab report provided by Smail Mersad. The original report contains screenshots/figures; this Markdown edition preserves the written technical record without inventing additional evidence or assets.
 
 **Academic context:** Amar Telidji University, Computer Science / Cybersecurity Engineering, 2025-2026.
