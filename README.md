@@ -14,26 +14,25 @@ Secure coding and web-application security labs covering authentication, authori
 
 `Node.js` · `Express` · `SQLite` · `Docker` · `C` · `GCC` · `HTTP` · `Cookies` · `Sessions`
 
-## Included lab reports
+## Included academic work
 
-| # | Lab | Report |
+| # | Lab | Portfolio write-up |
 |---:|---|---|
-| 1 | 01 Authentication And Task Management | [`docs/01-authentication-and-task-management.md`](docs/01-authentication-and-task-management.md) |
-| 2 | 02 Session Fixation And Regeneration | [`docs/02-session-fixation-and-regeneration.md`](docs/02-session-fixation-and-regeneration.md) |
-| 3 | 03 Program Security Vulnerabilities | [`docs/03-program-security-vulnerabilities.md`](docs/03-program-security-vulnerabilities.md) |
+| 1 | Authentication and Task Management | [`docs/01-authentication-and-task-management.md`](docs/01-authentication-and-task-management.md) |
+| 2 | Session Fixation and Regeneration | [`docs/02-session-fixation-and-regeneration.md`](docs/02-session-fixation-and-regeneration.md) |
+| 3 | Program Security Vulnerabilities | [`docs/03-program-security-vulnerabilities.md`](docs/03-program-security-vulnerabilities.md) |
 
 ## Repository structure
 
 ```text
 .
 ├── README.md
-├── docs/        # GitHub text editions of the academic lab reports
-└── src/         # Add original code/configs/scripts here when available
+└── docs/        # Portfolio write-ups derived from the supplied university reports
 ```
 
-## Notes
+## Evidence policy
 
-The reports document the work actually completed in the university labs. For GitHub portability, the reports are included as searchable Markdown text editions; the original PDF screenshots and figures are not embedded in these conversions. The `src/` directory is intentionally left as a place to add original source code, configuration files, packet captures, notebooks, or scripts where those artifacts are available. No source code has been fabricated from the reports.
+This repository uses only the academic reports and evidence that were actually supplied for the portfolio. Some original reports contained terminal/browser screenshots and figures; no additional screenshots, source files, packet captures, or results have been fabricated or claimed. Where a report recorded an incomplete or unsuccessful step, the write-up preserves that limitation.
 
 ## Responsible use
 
