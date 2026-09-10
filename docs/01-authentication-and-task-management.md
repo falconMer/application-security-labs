@@ -238,6 +238,12 @@ SELECT * FROM tasks WHERE id = ?
 This enforces per-user data isolation.
 ```
 
+### Technical review note — ownership filtering
+
+The original report labels the page-7 query as **“Filtering by Owner”**, but the SQL shown is `SELECT * FROM tasks WHERE id = ?`, which constrains only the task ID. On the supplied evidence alone, that query does **not** prove per-user data isolation because it does not also constrain `owner_id` to the authenticated user.
+
+A server-side ownership check would normally include the authenticated identity, for example `WHERE id = ? AND owner_id = ?` for a single task, or `WHERE owner_id = ?` when listing a user's tasks. This portfolio note flags the discrepancy without altering the original PDF or claiming source code that was not supplied.
+
 ---
 
 ## Report page 8
